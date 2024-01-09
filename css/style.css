@@ -1,0 +1,252 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.header a img{
+  max-width: 100%;
+  height: auto;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+}
+
+.nav li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5d4037;
+}
+
+.icon a i{
+  margin-right: 15px;
+  color: #000;
+  font-size: 25px;
+}
+
+section{
+  padding: 3% 10%;
+}
+
+
+.main img{
+  width: 100%;
+}
+
+.sec-text h2{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.row img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+.product h3{
+  color: grey;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+
+.product-text{
+  display: flex;
+  align-items: center;
+}
+
+  .product-text h2{
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-right: 10px;
+}  
+
+.product-text a{
+  text-decoration: none;
+  font-size: 25px;
+   color: #fff;
+  background-color: #a1887f; 
+  padding: 0 10px;
+  visibility: hidden;
+  transition: all 0.5s;
+
+}
+
+.product:hover .product-text a{
+  visibility: visible;
+}
+
+.main-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.col-text{
+  background-color: #f7f3ef;
+  width: 100%;
+  padding: 20px;
+}
+
+.column{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.column i{
+  font-size: 30px;
+  color: #5d4037;
+}
+
+.column h2{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.col-text p{
+text-transform: capitalize;
+  line-height: 30px;
+}
+.frist-product{
+  position: relative;
+}
+.frist-product img{
+  width: 100%;
+height: auto;
+transition: all 0.5s;
+}
+.frist-product img:hover{
+  transform: scale(1.1);
+}
+.product-content{
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.product-content h5{
+  color: #5d4037;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product-content p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.middle h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+.middle-product{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.middle-product p{
+  font-size: 16px;
+  margin: 20px 20px;
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+align-items: center;
+gap: 1rem;
+transition: all 3s;
+
+
+}
+
+.child{
+  position: relative;
+}
+.child img{
+width: 100%;
+height:auto ;
+}
+
+
+.child-icon a{
+  color: #a1887f;
+  font-size: 18px;
+}
+
+.child-text p{
+  text-transform: capitalize;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.child-text span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.over-lay{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+transform: scaleX(0);
+
+  opacity: 0.9;
+  
+
+transition: all 2.5s;
+}
+
+ .child:hover .over-lay{ 
+
+transform: scaleX(1);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
